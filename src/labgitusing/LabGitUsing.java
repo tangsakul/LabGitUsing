@@ -8,7 +8,7 @@ package labgitusing;
  *
  * @author Surasak
  */
-public class LabGitUsing {
+public class LabGitUsing extends MyAbstractClass1 {
 
     /**
      * @param args the command line arguments
@@ -16,6 +16,12 @@ public class LabGitUsing {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Master");
+        
+    }
+
+    @Override
+    String method1() {
+        return "This is return from MyAbstractClass1";
     }
     
 }
